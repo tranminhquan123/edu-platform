@@ -3,7 +3,6 @@ import { fetchProducts, fetchSuggestions } from '../api/mockApi';
 import ProductCard from '../components/ProductCard/ProductCard';
 import ProductModal from '../components/ProductModal/ProductModal';
 import LoadingSkeleton from '../components/LoadingSkeleton/LoadingSkeleton';
-import ChatbotAI from '../components/ChatbotAI/ChatbotAI';
 
 const HomePage = ({ favorites, onFavoriteToggle, viewHistory, onAddToHistory }) => {
   const [products, setProducts] = useState([]);
